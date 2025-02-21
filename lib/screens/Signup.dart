@@ -108,7 +108,6 @@ class _SignupScreenState extends State<SignupScreen> {
                         ),
                         ElevatedButton(
                           onPressed: () {},
-                          child: Text("Signup"),
                           style: ButtonStyle(
                             shape:
                                 WidgetStateProperty.all<RoundedRectangleBorder>(
@@ -117,6 +116,7 @@ class _SignupScreenState extends State<SignupScreen> {
                               ),
                             ),
                           ),
+                          child: Text("Signup"),
                         ),
                       ],
                     ),
